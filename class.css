@@ -1,0 +1,77 @@
+/* 
+CSS - RULE
+
+SELECTOR { PROPERTY:VALUE; PROPERTY:VALUE; PROPERTY:VALUE; PROPERTY:VALUE;} 
+
+SELECTORS - HELP TO SELECT/LOCATE AN HTML ELEMENT IN THE HTML DOC
+
+THERE ARE MULTIPLE WAYS TO SELECT/LOCATE/FIND ELEMENT IN THE HTML DOC
+
+    1. Element Tag (Directly use Element tag Ex: h1 { c })
+    2. ID  (# symbol before the idName Ex: #myFirstHeading )
+    3. Class (. symbol before the className) 
+
+Defines a unique identifier (ID) which must be unique in the whole document. 
+Its purpose is to identify the element when linking (using a fragment identifier), scripting, or styling (with CSS).
+
+1. BOX MODEL (margin,padding,border)
+2. Transform
+3. Transition
+4. Position
+5. CSS properties
+
+*/
+
+ /* * { background-color: crimson;}  */
+
+ /* #one { background-color: #7ba8c4; color: rgb(227, 103, 20); } */
+
+ /* h1 { background-color: orange;} */
+
+ /* #myFirstHeading { background-color: blue;} */
+ 
+/* 
+ body { 
+    background-image: url("inputimage.jpeg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+    background-position-x: 500px;
+    background-position-y: 300px;
+}
+
+span {
+    color: green;
+} */
+
+ /* .myClass {background-color: yellow; width: 250px; height: 250px} */
+
+
+/* h1 { background-color: orange;} */
+
+ .boxmodel {
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+ }
+
+/* div {
+    border: 10px solid;
+    border-color: blue;
+    padding: 25px;
+    margin-bottom: 10px;
+ } */
+
+
+ .transforms{
+    height: 150px;
+    width: 150px;
+    background-color: tomato;
+    transition: 1s;
+ }
+
+ .transforms:hover{
+    transform: rotate(900deg) ;
+ }
+

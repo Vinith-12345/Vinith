@@ -1,0 +1,48 @@
+/*
+    POSITION - STATIC, RELATIVE, ABSOLUTE, FIXED, STICKY
+
+    STATIC(DEFAULT) - IT WILL POSTION THE ELEMENTS IN THE FLOW OF DOCUMENT
+
+    RELATIVE - IT WILL POSITION THE ELEMENTS BASED ON THE LEFT,RIGHT,TOP,BOTTOM VALUES PROVIDED IN CSS
+
+    ABSOLUTE - It will start measuring from the parent, if there are no parents it will consider Body as a parent
+
+    FIXED - It will fix the position of an element on the Webpage, even when we scroll element remains fixed to view
+
+    STICKY - It will be scrollable for certain part of the webpage, one the element reaches the ends, it will becomes fixed
+ */
+.parentDiv{
+    width: 500px;
+    height: 500px;
+    background-color: lightpink;
+    position: relative;
+    left: 100px;
+}
+
+.div1{
+    height: 150px;
+    width: 150px;
+    background-color: lightblue;
+    position: absolute;
+}
+
+.div2{
+    height: 150px;
+    width: 150px;
+    background-color: tomato;
+}
+
+.div3{
+    width: 150px;
+    height: 150px;
+    background-color: lightgreen;
+}
+
+.fixed{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: sticky;
+    bottom:0px;
+}
+

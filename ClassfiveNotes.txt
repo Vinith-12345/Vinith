@@ -1,0 +1,39 @@
+
+
+Items
+
+Main Axis
+Cross Axis
+
+display: flex
+
+The basic property is all the flex-items in a flex -container flow in the direction of Main Axis
+
+
+flex-direction - row, row-reverse
+justify-content- Horizontal Movement
+align-items - Vertical Movement
+
+flex-direction- column,column-reverse
+justify-content - Vertical Movement
+align-items - Horizontal Movement
+
+
+Container
+-----------
+Flex-Direction - row/row-reverse
+Flex-wrap - wrap
+Flex-flow -  row warp  //Shorthand Combination of Multiple Properties 
+Justify-Content
+Align-Items
+
+
+Items
+---------
+Order - Be Default every flex item has value - 0, 
+flex-grow
+flex-shrink
+flex-basis - Minium viable size for a flex item
+align-self
+
+Lowest Order Elements will be displayed first compared to Higher Order Elements

@@ -1,0 +1,57 @@
+.example {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    transition-duration: 1s; /* Duration is for amount of time for tranformation */
+    transition-delay: 5s; /* Amount of time before tranforamtion begins */
+}
+
+.example:hover {
+    transform: rotate(90deg);
+}
+
+input {
+    height: 150px;
+    transition-property: height;
+    transition-duration: 5s;
+    transition-delay: 5s;
+}
+
+input:focus{
+    height: 1000px;
+}
+
+
+.cc{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    display: inline-block;
+}
+
+.cc:hover {
+    transform: scale(2);
+    box-shadow: 5px 5px 5px red;
+    
+}
+
+.temp{
+    background-image: linear-gradient(90deg, #ed702d, #8d2183);
+    align-items: center;
+}
+
+
+/* Transform - Change the Elements
+                    1. Position - translate(X, Y), translateX(), translateY()
+                    2. Size - scale(X,Y), scaleX(),scaleY()
+                    3. Angle - rotate(), rotateX(), rotateY()
+                    4. Angle against the Axis - skew(deg1, deg2), skewX(), skewY()
+                    */
+
+/* Transition - Provide time for the transformation to happen 
+                    1. How to add time for the transformation to Happen
+
+                

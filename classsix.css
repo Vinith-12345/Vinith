@@ -1,0 +1,74 @@
+.box{
+    background-color: #00b7ff;
+    height: 200px;
+    width:200px;
+    color: palegreen;
+    box-shadow:5px 5px black;
+
+    transition: 1s;
+    display: flex;
+    margin:15px;
+    /*
+        Horizontal Width of the Shadow, 
+        Vertical Height Shadow, 
+        Blur effect till what length,
+        Spread the blur effect,
+        Customize the color of the shadow
+    */
+}
+
+@media screen(width:25px) {
+   background-color:red;
+}
+
+.box:hover{
+    transform: scale(2);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    width:1000px;
+}
+
+
+a:visited{
+    color: pink;
+}
+.btnclass{
+    color:green;
+}
+
+.btnclass {
+    color: red;
+}
+
+
+.parent{
+    display: flex;
+}
+
+.another{
+    background-color: tomato;
+}
+
+.flex{
+    height: 250px;
+    width: 250px;
+}
+
+.item1{
+    background-color: hsl(43, 100%, 50%);
+}
+.item3{
+    background-color:bisque;
+}
+.item4{
+    background-color:violet;
+}
+.item2{
+    background-color: #00b7ff;
+    flex-shrink: 3;
+}

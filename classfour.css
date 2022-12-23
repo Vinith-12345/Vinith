@@ -1,0 +1,15 @@
+.color{
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.container {
+    background-color: sienna;
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
