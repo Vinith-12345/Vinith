@@ -1,0 +1,7 @@
+@use "library";
+
+.myclass2{
+    background-color: library.$primary-color;
+    height: library.$height;
+    width: library.$width;
+}

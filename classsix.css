@@ -17,10 +17,6 @@
     */
 }
 
-@media screen(width:25px) {
-   background-color:red;
-}
-
 .box:hover{
     transform: scale(2);
 }

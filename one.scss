@@ -1,0 +1,16 @@
+@use 'library';
+
+@mixin mydemomixin($param1:3px , $param2:yellow){
+    margin: $param1;
+    background-color: $param2;
+}
+
+.myclass1{
+    height: library.$height;
+    width: library.$width;
+    @include mydemomixin(50px, red);
+}
+
+.class2{
+    @include mydemomixin;
+}

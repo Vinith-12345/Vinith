@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+/* body{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.main{
+    width: 50vw;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
